@@ -1,7 +1,7 @@
-################################# CSc 343 LAB #3 part 2 ######################################    
+#######################################################################    
     		 .data
-    student_name:.asciiz "CSc343000:\nStudent name: William Ng"
-    student_id: .asciiz "\nStudent ID: 23445871\n"
+    student_name:.asciiz "\nStudent name: William Ng"
+    student_id: .asciiz "Student ID:"
     prompt:     .asciiz "The Fibonacci Number F("
     closing:    .asciiz ") is "
     newline:    .asciiz "\n"
@@ -32,8 +32,10 @@ main:
     li $v0, 4                 # Print string syscall
     la $a0, student_name      # Load address of student_name string
     syscall
+    print_space
     la $a0, student_id        # Load address of student_id string
     syscall
+    print_space
 
     # Step 1: Calculate Fibonacci numbers until overflow
     la $t0, FBN               # Load base address of FBN array 100 integers
