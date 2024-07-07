@@ -9,7 +9,7 @@ Author: William Ng
 Description:
 ------------
 
-his MIPS assembly language program demonstrates the implementation of
+This MIPS assembly language program demonstrates the implementation of
 the Bubble Sort algorithm to sort an array in ascending order. Bubble Sort
 is a simple sorting algorithm that repeatedly steps through the list,
 compares adjacent elements, and swaps them if they are in the wrong order.
