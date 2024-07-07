@@ -1,7 +1,7 @@
-################################# CSc 343 LAB #3 part 1 ######################################
+#######################################################################
 	.data
-    student_name:.asciiz "CSc343000:\nStudent name: William Ng"
-    student_id: .asciiz "Student ID: 23445871"
+    student_name:.asciiz "\nStudent name: William Ng"
+    student_id: .asciiz "Student ID: "
     prompt:     .asciiz "The Fibonacci Number F("
     closing:    .asciiz ") is "
     newline:    .asciiz "\n"
